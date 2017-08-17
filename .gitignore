@@ -7,3 +7,5 @@ docs/_build/
 *.m~
 
 external/tensordot.m~
+
+_site
