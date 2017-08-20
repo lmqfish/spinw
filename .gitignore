@@ -1,11 +1,5 @@
 docs/_build/
 
-*.mat
-
 .DS_Store
-
-*.m~
-
-external/tensordot.m~
 
 _site
