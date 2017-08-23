@@ -1,5 +1,6 @@
 ---
 title: "SpinW"
+permalink: /welcome/
 layout: splash
 date: 2017-08-22 23:26:54
 header:
@@ -15,7 +16,7 @@ header:
   badge2_label: "Github All Releases"
   badge2_img: "https://img.shields.io/github/downloads/tsdev/spinw/total.svg"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "Quantum magnetism library."
+excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
 intro: 
   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
 feature_row:

@@ -51,6 +51,13 @@
       {% if page.header.cta_url %}
         <p><a href="{{ cta_path }}" class="btn btn--light-outline btn--large">{{ page.header.cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
       {% endif %}
+      {% if page.header.badge1_url %}
+        <p><a href="{{ page.header.badge1_url }}"><img src="{{ page.header.badge1_img }}"></a>
+        {% if page.header.badge2_url %}
+          <a href="{{ page.header.badge2_url }}"><img src="{{ page.header.badge2_img }}"></a>
+        {% endif %}
+        </p>
+      {% endif %}
     </div>
   {% else %}
     <img src="{{ img_path }}" alt="{{ image_description }}" class="page__hero-image">
